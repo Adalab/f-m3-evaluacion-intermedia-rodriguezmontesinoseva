@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './../stylesheets/index.scss';
-import PokeList from './PokeList';
 
 class Pokemon extends Component {
     render() {

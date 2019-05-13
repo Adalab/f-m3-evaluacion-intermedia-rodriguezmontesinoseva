@@ -16,9 +16,14 @@ class PokeList extends Component {
         });
 
         return (
-            <ul className="item-list">
-                {arrayOfPokemon};
+            <div>
+                <h1>Mi lista de Pokemon</h1>
+                <ul className="item-list">
+
+
+                    {arrayOfPokemon};
 				</ul>
+            </div>
         );
     }
 }
