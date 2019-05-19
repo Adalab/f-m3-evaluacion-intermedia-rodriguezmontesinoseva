@@ -17,10 +17,8 @@ class PokeList extends Component {
 
         return (
             <div>
-                <h1>Mi lista de Pokemon</h1>
+                <h1 className="title">Mi lista de Pokemon</h1>
                 <ul className="item-list">
-
-
                     {arrayOfPokemon};
 				</ul>
             </div>
