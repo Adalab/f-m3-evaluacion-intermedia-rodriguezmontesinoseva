@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './../stylesheets/index.scss';
 import Pokemon from './Pokemon';
+import PropTypes from 'prop-types';
+
 
 class PokeList extends Component {
     render() {
@@ -24,5 +26,9 @@ class PokeList extends Component {
         );
     }
 }
+
+PokeList.propTypes = {
+    arrPokemon: PropTypes.array,
+};
 
 export default PokeList;
