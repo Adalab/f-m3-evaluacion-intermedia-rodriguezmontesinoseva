@@ -12,8 +12,6 @@ class Pokemon extends Component {
                 </div>
                 <h2 className="item-name">{name}</h2>
                 <div className="powers">{types.map(element => <p className="item-powers">{(element).toUpperCase()}</p>)}</div>
-
-
             </div>
         );
     }

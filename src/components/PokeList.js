@@ -3,7 +3,6 @@ import './../stylesheets/index.scss';
 import Pokemon from './Pokemon';
 import PropTypes from 'prop-types';
 
-
 class PokeList extends Component {
     render() {
         const { arrPokemon } = this.props;
@@ -20,8 +19,8 @@ class PokeList extends Component {
         return (
             <div>
                 <ul className="item-list">
-                    {arrayOfPokemon};
-				</ul>
+                    {arrayOfPokemon}
+                </ul>
             </div>
         );
     }
