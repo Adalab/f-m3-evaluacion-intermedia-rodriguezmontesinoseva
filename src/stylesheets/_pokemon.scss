@@ -1,0 +1,34 @@
+
+.item{
+    border: solid 1px gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 130px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: lightcyan;
+}
+
+.item-name{
+    text-transform: capitalize;
+}
+
+.powers{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.item-powers{
+    border: solid 1px gray;
+    border-radius: 9px;
+    padding: 3px;
+    margin: 6px;
+    font-size: 9px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+}

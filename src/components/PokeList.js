@@ -5,8 +5,8 @@ import Pokemon from './Pokemon';
 class PokeList extends Component {
     render() {
         const { arrPokemon } = this.props;
-        const arrayOfPokemon = arrPokemon.map((element, index) => {
-            return <li key={index}>
+        const arrayOfPokemon = arrPokemon.map((element) => {
+            return <li key={element.id}>
                 <Pokemon
                     name={element.name}
                     image={element.url}
@@ -17,7 +17,6 @@ class PokeList extends Component {
 
         return (
             <div>
-                <h1 className="title">Mi lista de Pokemon</h1>
                 <ul className="item-list">
                     {arrayOfPokemon};
 				</ul>

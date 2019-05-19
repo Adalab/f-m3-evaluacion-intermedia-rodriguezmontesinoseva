@@ -6,7 +6,7 @@ class Pokemon extends Component {
         const { image, name, types } = this.props;
         return (
             <div className="item">
-                <img src={image} alt="" />
+                <img src={image} alt={name} />
                 <h2 className="item-name">{name}</h2>
                 <div>
                     <span className="powers">{types.map(element => <p className="item-powers">{(element).toUpperCase()}</p>)}</span>
